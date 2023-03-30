@@ -40,3 +40,13 @@ class Login extends StatelessWidget {
                     return const Home();}),
                     );
                 },
+                style: ButtonStyle(
+                  backgroundColor: const MaterialStatePropertyAll(btngreen),
+                  padding: const MaterialStatePropertyAll(EdgeInsets.all(12)),
+                  shape: MaterialStatePropertyAll(RoundedRectangleBorder(borderRadius:BorderRadius.circular(10),),),
+                ),
+                child:
+                  const Text("sign in",
+                    style: TextStyle(fontSize: 20),
+                  ),  
+              ),
