@@ -15,4 +15,9 @@ class Login extends StatelessWidget {
           padding: const EdgeInsets.all(10.0),
           child:  Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            
+             children:  [
+              const Text_field(
+                hint: "enter your name",
+                secure: false,
+                type: TextInputType.text,
+                ),
