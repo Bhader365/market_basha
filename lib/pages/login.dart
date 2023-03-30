@@ -24,3 +24,8 @@ class Login extends StatelessWidget {
                 const SizedBox(
                 height: 10,
               ),
+              const Text_field(
+              hint: 'enter your password',
+              secure: true,
+              type: TextInputType.text,
+              ),
