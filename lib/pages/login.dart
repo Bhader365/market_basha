@@ -29,3 +29,6 @@ class Login extends StatelessWidget {
               secure: true,
               type: TextInputType.text,
               ),
+              const SizedBox(
+                height: 10,
+              ),
