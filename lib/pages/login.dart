@@ -64,3 +64,6 @@ class Login extends StatelessWidget {
                     MaterialPageRoute(builder: (context){
                     return const Regiser();}),
                     );
+                    },
+                    child: const Text("Sign up",style: TextStyle(color: Colors.black,fontSize: 20,),),
+                    ),
