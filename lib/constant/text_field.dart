@@ -20,3 +20,11 @@ final void Function(String?)? onsaved;
           return null;
         }
       },
+      keyboardType: type,
+      cursorColor:Colors.black,
+      obscureText: secure,
+      decoration: InputDecoration(
+        hintText: hint,
+        hintStyle:const TextStyle(
+          color: Colors.blue,
+        ),
