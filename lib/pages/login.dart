@@ -50,3 +50,17 @@ class Login extends StatelessWidget {
                     style: TextStyle(fontSize: 20),
                   ),  
               ),
+              const SizedBox(
+                height: 10,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text('Do not have an account?',style: TextStyle(fontSize: 20),),
+                  TextButton(
+                    onPressed: (){
+                      Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(builder: (context){
+                    return const Regiser();}),
+                    );
