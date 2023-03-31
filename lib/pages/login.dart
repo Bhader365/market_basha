@@ -67,3 +67,5 @@ class Login extends StatelessWidget {
                     },
                     child: const Text("Sign up",style: TextStyle(color: Colors.black,fontSize: 20,),),
                     ),
+                    ],
+              )
