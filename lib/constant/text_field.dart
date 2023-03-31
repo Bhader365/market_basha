@@ -10,3 +10,13 @@ final bool secure;
 final String hint ;
 final void Function(String?)? onsaved;
   @override
+   Widget build(BuildContext context) {
+    return TextFormField(
+      onSaved: onsaved,
+      validator: (value) {
+        if(value?.isEmpty ?? true){
+          return 'field is required';
+        }else{
+          return null;
+        }
+      },
