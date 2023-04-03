@@ -28,3 +28,11 @@ final void Function(String?)? onsaved;
         hintStyle:const TextStyle(
           color: Colors.blue,
         ),
+        border: buildBorder(),
+        enabledBorder: buildBorder(),
+        focusedBorder: buildBorder(),
+        filled: true,
+        contentPadding:const EdgeInsets.all(8),
+      ),
+    );
+  }
