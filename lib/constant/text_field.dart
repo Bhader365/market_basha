@@ -36,3 +36,12 @@ final void Function(String?)? onsaved;
       ),
     );
   }
+
+
+  OutlineInputBorder buildBorder([color]) {
+    return OutlineInputBorder(
+        borderRadius: BorderRadius.circular(16),
+        borderSide: BorderSide(color:color ?? Colors.black),
+      );
+  }
+  }
