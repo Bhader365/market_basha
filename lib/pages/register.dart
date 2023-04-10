@@ -48,3 +48,8 @@ class Regiser extends StatelessWidget {
                     ),
                   ),
                 ),
+                child: const Text(
+                  "Register",
+                  style: TextStyle(fontSize: 20),
+                ),
+              ),
