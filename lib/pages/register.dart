@@ -63,3 +63,5 @@ class Regiser extends StatelessWidget {
                     'Do not have an account?',
                     style: TextStyle(fontSize: 20),
                   ),
+                   TextButton(
+                    onPressed: () {
