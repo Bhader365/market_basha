@@ -51,3 +51,7 @@ class Home extends StatelessWidget {
                     title: const Text("My products"),
                     leading: const Icon(Icons.add_shopping_cart),
                     onTap: () {}),
+                      ListTile(
+                    title: const Text("About"),
+                    leading: const Icon(Icons.help_center),
+                    onTap: () {}),
