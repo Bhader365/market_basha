@@ -37,3 +37,5 @@ class Regiser extends StatelessWidget {
                 secure: true,
                 type: TextInputType.text,
               ),
+               ElevatedButton(
+                onPressed: () {},
