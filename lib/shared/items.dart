@@ -14,4 +14,5 @@ final List<item> items=[
   item(name: "product4", imgpath:"assets/img/4.webp" , price:155.5,),
   item(name: "product5", imgpath:"assets/img/5.webp" , price:250,),
   item(name: "product6", imgpath:"assets/img/6.webp" , price:150,),
+  item(name: "product7", imgpath:"assets/img/7.webp" , price:153,),
   
