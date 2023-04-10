@@ -104,3 +104,9 @@ class Home extends StatelessWidget {
                    footer: GridTileBar(
                     trailing: IconButton(
                         color: const Color.fromARGB(255, 62, 94, 70),
+                         onPressed: () {
+                          classInstancee.add(items[index]);
+                        },
+                        icon: const Icon(Icons.add)),
+                    leading: Text("\$ ${items[index].price}"),
+                    title: const Text(""),
