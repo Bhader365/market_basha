@@ -72,3 +72,6 @@ class Regiser extends StatelessWidget {
                         );},
                         child: const Text(
                       "Sign in",
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20,
