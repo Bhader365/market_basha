@@ -10,3 +10,5 @@ class Regiser extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       body: Center(
+        child: Padding(
+        padding: const EdgeInsets.all(10.0),
