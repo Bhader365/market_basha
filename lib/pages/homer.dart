@@ -80,3 +80,5 @@ class Home extends StatelessWidget {
             ),
               itemCount: items.length,
             itemBuilder: (BuildContext context, int index)
+            return GestureDetector(
+                onTap: () {
