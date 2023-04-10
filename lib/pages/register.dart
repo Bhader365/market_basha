@@ -16,3 +16,8 @@ class Regiser extends StatelessWidget {
            child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+               const Text_field(
+                hint: "Enter your username",
+                secure: false,
+                type: TextInputType.text,
+              ),
