@@ -15,3 +15,9 @@ class Home extends StatelessWidget {
     final classInstancee = Provider.of<Cart>(context);
     return Scaffold(
       appBar: AppBar(
+         backgroundColor: appbargreen,
+        title: const Text("Home"),
+        actions: const [
+          Content(),
+        ],
+      ),
