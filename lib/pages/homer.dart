@@ -109,4 +109,4 @@ class Home extends StatelessWidget {
                         },
                         icon: const Icon(Icons.add)),
                     leading: Text("\$ ${items[index].price}"),
-                    title: const Text(""),
+                    title: const Text(""), 
