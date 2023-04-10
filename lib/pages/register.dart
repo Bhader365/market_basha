@@ -32,3 +32,8 @@ class Regiser extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
+               const Text_field(
+                hint: "Enter your password",
+                secure: true,
+                type: TextInputType.text,
+              ),
