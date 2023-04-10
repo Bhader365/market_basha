@@ -33,3 +33,7 @@ class Home extends StatelessWidget {
                         image: AssetImage("assets/img/back.jpg"),
                         fit: BoxFit.cover),
                   ),
+                   accountName: Text("BAHADER",
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 255, 255, 255),
+                      )),
