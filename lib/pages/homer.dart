@@ -71,3 +71,10 @@ class Home extends StatelessWidget {
       ),
        body: Padding(
         padding: const EdgeInsets.only(top: 8.0),
+        child: GridView.builder(
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              childAspectRatio: 3 / 2,
+              crossAxisSpacing: 10,
+              mainAxisSpacing: 20,
+            ),
