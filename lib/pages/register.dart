@@ -70,3 +70,5 @@ class Regiser extends StatelessWidget {
                         MaterialPageRoute(builder: (context){
                           return const Login();}),
                         );},
+                        child: const Text(
+                      "Sign in",
