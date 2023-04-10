@@ -101,3 +101,6 @@ class Home extends StatelessWidget {
                       ),
                     ),
                   ]),
+                   footer: GridTileBar(
+                    trailing: IconButton(
+                        color: const Color.fromARGB(255, 62, 94, 70),
