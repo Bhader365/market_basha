@@ -43,3 +43,5 @@ class Home extends StatelessWidget {
                       radius: 50,
                        backgroundImage: AssetImage("assets/img/1.jpg")),
                 ),
+                ListTile(
+                    title: const Text("Home"),
