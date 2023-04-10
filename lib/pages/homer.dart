@@ -61,3 +61,11 @@ class Home extends StatelessWidget {
                     onTap: () {}),
                      ],
             ),
+            Container(
+              margin: const EdgeInsets.only(bottom: 12),
+              child: const Text("Developed by bhader © 2023",
+                  style: TextStyle(fontSize: 16)),
+            )
+          ],
+        ),
+      ),
