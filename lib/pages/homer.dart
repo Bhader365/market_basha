@@ -22,3 +22,7 @@ class Home extends StatelessWidget {
         ],
       ),
        drawer: Drawer(
+         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Column(
