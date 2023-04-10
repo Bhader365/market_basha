@@ -65,6 +65,7 @@ class Regiser extends StatelessWidget {
                   ),
                    TextButton(
                     onPressed: () {
+                      //navigation
                       Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(builder: (context){
