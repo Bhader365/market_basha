@@ -45,3 +45,5 @@ class Home extends StatelessWidget {
                 ),
                 ListTile(
                     title: const Text("Home"),
+                     leading: const Icon(Icons.home),
+                    onTap: () {}),
