@@ -27,3 +27,5 @@ class Regiser extends StatelessWidget {
               const Text_field(
                 hint: "Enter your Email",
                 secure: false,
+                 type: TextInputType.emailAddress,
+              ),
