@@ -1,3 +1,4 @@
+// ignore: depend_on_referenced_packages
 import 'package:app1/pages/details.dart';
 import 'package:app1/provider/cart.dart';
 import 'package:app1/widgets/constant_colors.dart';
