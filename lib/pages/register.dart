@@ -29,3 +29,6 @@ class Regiser extends StatelessWidget {
                 secure: false,
                  type: TextInputType.emailAddress,
               ),
+              const SizedBox(
+                height: 10,
+              ),
