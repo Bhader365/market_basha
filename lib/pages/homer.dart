@@ -31,3 +31,5 @@ class Home extends StatelessWidget {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                         image: AssetImage("assets/img/back.jpg"),
+                        fit: BoxFit.cover),
+                  ),
