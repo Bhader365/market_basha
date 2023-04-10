@@ -21,3 +21,4 @@ class Home extends StatelessWidget {
           Content(),
         ],
       ),
+       drawer: Drawer(
