@@ -38,3 +38,6 @@ class Home extends StatelessWidget {
                         color: Color.fromARGB(255, 255, 255, 255),
                       )),
                        accountEmail: Text("Bhader@yahoo.com"),
+                       currentAccountPictureSize: Size.square(99),
+                  currentAccountPicture: CircleAvatar(
+                      radius: 50,
