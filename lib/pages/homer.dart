@@ -69,3 +69,5 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
+       body: Padding(
+        padding: const EdgeInsets.only(top: 8.0),
