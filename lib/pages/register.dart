@@ -59,3 +59,7 @@ class Regiser extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  const Text(
+                    'Do not have an account?',
+                    style: TextStyle(fontSize: 20),
+                  ),
