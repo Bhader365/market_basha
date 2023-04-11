@@ -120,3 +120,11 @@ class _DetailsState extends State<Details> {
             const SizedBox(
               height: 15,
             ),
+             SizedBox(
+                child: Text(
+              "A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae). Flowers produce gametophytes, which in flowering plants consist of a few haploid cells which produce gametes. The male gametophyte, which produces non-motile sperm, is enclosed within pollen grains; the female gametophyte is contained within the",
+              style: const TextStyle(fontSize: 20),
+              textAlign: TextAlign.start,
+              maxLines: isShowMore ? 6 : null,
+              overflow: TextOverflow.ellipsis,
+            )),
