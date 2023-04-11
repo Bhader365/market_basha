@@ -11,3 +11,16 @@ class Details extends StatefulWidget {
   @override
   State<Details> createState() => _DetailsState();
 }
+class _DetailsState extends State<Details> {
+  // Details({super.key});
+  bool isShowMore = false;
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: appbargreen,
+        title: const Text("Details Screen"),
+        actions: const [
+          Content(),
+        ],
+      ),
