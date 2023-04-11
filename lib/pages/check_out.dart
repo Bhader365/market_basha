@@ -6,3 +6,15 @@ import '../widgets/constant_colors.dart';
 
 class Checkout extends StatelessWidget {
   const Checkout({super.key});
+
+ @override
+  Widget build(BuildContext context) {
+    final classInstancee = Provider.of<Cart>(context);
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: appbargreen,
+        title: const Text("Check Out"),
+        actions: const [
+          Content(),
+        ],
+      ),
