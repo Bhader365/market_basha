@@ -49,3 +49,10 @@ class _DetailsState extends State<Details> {
                     "New",
                     style: TextStyle(fontSize: 15),
                   ),
+                   decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 255, 129, 129),
+                      borderRadius: BorderRadius.circular(4)),
+                ),
+                const SizedBox(
+                  width: 8,
+                ),
