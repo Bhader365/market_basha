@@ -139,3 +139,9 @@ class _DetailsState extends State<Details> {
                 style: const TextStyle(fontSize: 20),
               ),
             )
+            ],
+        ),
+      ),
+    );
+  }
+}
