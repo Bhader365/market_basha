@@ -85,3 +85,13 @@ class _DetailsState extends State<Details> {
                     ),
                   ],
                 ),
+                 const Spacer(),
+                Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Row(
+                    children:  [
+                      const Icon(
+                        Icons.edit_location,
+                        size: 25,
+                        color: Color.fromARGB(168, 3, 65, 27),
+                      ),
