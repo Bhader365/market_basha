@@ -24,3 +24,9 @@ class _DetailsState extends State<Details> {
           Content(),
         ],
       ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            const SizedBox(
+              height: 10,
+            ),
