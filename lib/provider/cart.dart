@@ -11,3 +11,8 @@ class Cart with ChangeNotifier {
     coast +=product.price;
     notifyListeners();
   }
+   delete(item product){
+    selectitems.remove(product);
+    coast -=product.price;
+    notifyListeners();
+  }
