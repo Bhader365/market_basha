@@ -28,3 +28,21 @@ class Checkout extends StatelessWidget {
                   itemCount: classInstancee.selectitems.length,
                   itemBuilder: (BuildContext context, int index) {
                     return Card(
+                      child: ListTile(
+                        subtitle: Text(
+                            "${classInstancee.selectitems[index].price} - ${classInstancee.selectitems[index].location}"),
+                        leading: CircleAvatar(
+                          backgroundImage: AssetImage(
+                              classInstancee.selectitems[index].imgpath),
+                        ),
+                        title:
+                            Text("${classInstancee.selectitems[index].name}"),
+                        trailing: IconButton(
+                            onPressed: () {
+                              classInstancee.delete(classInstancee.selectitems[index]);
+                            }, icon: const Icon(Icons.remove)),
+                      ),
+                    );
+                  }),
+            ),
+          ),
