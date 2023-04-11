@@ -18,3 +18,8 @@ class Checkout extends StatelessWidget {
           Content(),
         ],
       ),
+       body: Column(
+        children: [
+          SingleChildScrollView(
+            child: SizedBox(
+              height: 600,
