@@ -16,3 +16,4 @@ class Cart with ChangeNotifier {
     coast -=product.price;
     notifyListeners();
   }
+  }
