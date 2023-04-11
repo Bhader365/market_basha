@@ -46,3 +46,15 @@ class Checkout extends StatelessWidget {
                   }),
             ),
           ),
+           ElevatedButton(
+                onPressed: (){},
+                style: ButtonStyle(
+                  backgroundColor: const MaterialStatePropertyAll(btngreen),
+                  padding: const MaterialStatePropertyAll(EdgeInsets.all(12)),
+                  shape: MaterialStatePropertyAll(RoundedRectangleBorder(borderRadius:BorderRadius.circular(10),),),
+                ),
+                child:
+                    Text("pay ${classInstancee.coast}",
+                    style: const TextStyle(fontSize: 20),
+                  ),  
+              ),
