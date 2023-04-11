@@ -56,3 +56,32 @@ class _DetailsState extends State<Details> {
                 const SizedBox(
                   width: 8,
                 ),
+                 Row(
+                  children: const [
+                    Icon(
+                      Icons.star,
+                      size: 25,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 25,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 25,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 25,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                    Icon(
+                      Icons.star,
+                      size: 25,
+                      color: Color.fromARGB(255, 255, 191, 0),
+                    ),
+                  ],
+                ),
