@@ -98,3 +98,25 @@ class _DetailsState extends State<Details> {
                        const SizedBox(
                         width: 5,
                       ),
+                       Text(
+                        widget.product.location,
+                        style: const TextStyle(fontSize: 20),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+             const SizedBox(
+              height: 15,
+            ),
+            const SizedBox(
+                width: double.infinity,
+                child: Text(
+                  "Details :",
+                  style: TextStyle(fontSize: 20),
+                  textAlign: TextAlign.start,
+                )),
+            const SizedBox(
+              height: 15,
+            ),
