@@ -34,3 +34,10 @@ class _DetailsState extends State<Details> {
             const SizedBox(
               height: 10,
             ),
+             Text(
+              "\$ ${widget.product.price}",
+              style: const TextStyle(fontSize: 20),
+            ),
+            const SizedBox(
+              height: 15,
+            ),
