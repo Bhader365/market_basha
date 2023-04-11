@@ -23,3 +23,8 @@ class Checkout extends StatelessWidget {
           SingleChildScrollView(
             child: SizedBox(
               height: 600,
+               child: ListView.builder(
+                  padding: const EdgeInsets.all(8),
+                  itemCount: classInstancee.selectitems.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    return Card(
