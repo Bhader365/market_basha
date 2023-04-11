@@ -30,3 +30,7 @@ class _DetailsState extends State<Details> {
             const SizedBox(
               height: 10,
             ),
+            Image.asset(widget.product.imgpath),
+            const SizedBox(
+              height: 10,
+            ),
