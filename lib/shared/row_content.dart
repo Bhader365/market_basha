@@ -26,3 +26,13 @@ class Content extends StatelessWidget {
                     style: const TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
                   )),
             ),
+             IconButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context){
+                    return const Checkout();}),
+                    );
+                }, icon: const Icon(Icons.add_shopping_cart)),
+          ],
+        ),
