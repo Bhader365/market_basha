@@ -40,3 +40,7 @@ class Content extends StatelessWidget {
           padding: const EdgeInsets.only(right: 12),
           child: Text("\$ ${classInstancee.coast}"),
         )
+         ],
+    );
+  }
+}
