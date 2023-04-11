@@ -36,3 +36,7 @@ class Content extends StatelessWidget {
                 }, icon: const Icon(Icons.add_shopping_cart)),
           ],
         ),
+         Padding(
+          padding: const EdgeInsets.only(right: 12),
+          child: Text("\$ ${classInstancee.coast}"),
+        )
