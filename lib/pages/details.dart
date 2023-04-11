@@ -128,3 +128,14 @@ class _DetailsState extends State<Details> {
               maxLines: isShowMore ? 6 : null,
               overflow: TextOverflow.ellipsis,
             )),
+            TextButton(
+              onPressed: () {
+                setState(() {
+                  isShowMore = !isShowMore;
+                });
+              },
+              child: Text(
+                isShowMore ? "show less" : "show more",
+                style: const TextStyle(fontSize: 20),
+              ),
+            )
