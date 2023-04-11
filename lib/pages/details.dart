@@ -95,3 +95,6 @@ class _DetailsState extends State<Details> {
                         size: 25,
                         color: Color.fromARGB(168, 3, 65, 27),
                       ),
+                       const SizedBox(
+                        width: 5,
+                      ),
